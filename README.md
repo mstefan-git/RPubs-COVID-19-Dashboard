@@ -1,2 +1,2 @@
-# RPub: COVID-19-Dashboard
+# RPubs: COVID-19-Dashboard
 (https://rpubs.com/mstefan-rpubs/corona) 
