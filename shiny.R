@@ -8,7 +8,7 @@ library(leaflet)
 library(shinydashboard)
 
 # import data
-covid <- read_excel("data/covid.xlsx")  # read excel file
+covid <- read_excel("covid.xlsx")  # read excel file
 covid <- covid[complete.cases(covid),]  # remove NAs
 covid <- covid %>% 
   select(-day, -month, -year) %>%       # drop variables
@@ -35,7 +35,7 @@ covid$casesMill <- covid$cases/covid$population*1000000
 covid$deathsMill <- covid$deaths/covid$population*1000000
 
 # geo data
-geo <- geojson_read("data/geo.json", what = "sp")
+geo <- geojson_read("geo.json", what = "sp")
 
 # add variables = 0
 geo@data$cases <- 0
