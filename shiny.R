@@ -1,3 +1,7 @@
+# Replication file for: "COVID-19 Dashboard"
+# RPubs-link: https://rpubs.com/mstefan-rpubs/corona
+# (c) Martin Stefan, July 2020
+
 # packages
 library(readxl)
 library(geojsonio)
